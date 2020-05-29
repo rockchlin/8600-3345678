@@ -3,9 +3,9 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/firefox-icon.png') {
-      myImage.setAttribute ('src','images/001.png');
+      myImage.setAttribute ('src','https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUqDhsNTvNzHrUvzDdD6cLxV0k5mq6wwxp7jebvHwm3XNb7c-R&usqp=CAU');
     } else {
-      myImage.setAttribute ('src','images/firefox-icon.png');
+      myImage.setAttribute ('src','https://i.pinimg.com/originals/59/54/b4/5954b408c66525ad932faa693a647e3f.jpg');
     }
 }
 
